@@ -1,0 +1,17 @@
+{
+  "description": "Horizon budget, estimated action geometry, exact liability, and actionable capture",
+  "data_sha256_checked": true,
+  "pdf_page_count": 1,
+  "size_pt": [
+    1264.22,
+    829.44
+  ],
+  "checks": {
+    "trace_rows": 31,
+    "temporal_grid": [
+      5,
+      4
+    ],
+    "frontier_rows": 15
+  }
+}

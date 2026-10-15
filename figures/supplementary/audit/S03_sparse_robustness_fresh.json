@@ -1,0 +1,14 @@
+{
+  "description": "Sparse development, robustness and three locked fresh confirmations",
+  "data_sha256_checked": true,
+  "pdf_page_count": 1,
+  "size_pt": [
+    1264.32,
+    829.44
+  ],
+  "checks": {
+    "primary_n": 3,
+    "fresh_datasets": 3,
+    "hold_controls": 1
+  }
+}

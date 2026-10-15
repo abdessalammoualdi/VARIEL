@@ -1,0 +1,15 @@
+{
+  "description": "Resource-stage operational validity, label expense and hard-case regret",
+  "data_sha256_checked": true,
+  "pdf_page_count": 1,
+  "size_pt": [
+    1264.32,
+    829.44
+  ],
+  "checks": {
+    "RACS_operational": 1080,
+    "RACS_exact": 1075,
+    "rescue_count": 21,
+    "racs_resolved": 21
+  }
+}

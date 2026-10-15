@@ -1,0 +1,15 @@
+{
+  "description": "High-information gains, canary use, exact H and action state frequencies",
+  "data_sha256_checked": true,
+  "pdf_page_count": 1,
+  "size_pt": [
+    1264.32,
+    829.44
+  ],
+  "checks": {
+    "paired_cells": 8,
+    "paired_wins": 80,
+    "window_rows": 1010,
+    "max_H": 0.02
+  }
+}

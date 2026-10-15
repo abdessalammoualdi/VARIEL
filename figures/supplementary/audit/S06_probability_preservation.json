@@ -1,0 +1,15 @@
+{
+  "description": "Main V24 Brier, NLL, calibration and protected outcomes",
+  "data_sha256_checked": true,
+  "pdf_page_count": 1,
+  "size_pt": [
+    1264.32,
+    829.44
+  ],
+  "checks": {
+    "main_cells": 24,
+    "brier_positive_cells": 24,
+    "nll_positive_cells": 24,
+    "max_protected_abs_delta": 0.0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Real frozen seed-0 fresh-stream window traces; not a reconstruction from the uploaded PDF",
+  "data_sha256_checked": true,
+  "pdf_page_count": 1,
+  "size_pt": [
+    1263.86,
+    829.44
+  ],
+  "checks": {
+    "total_windows": 24,
+    "INSECTS_windows": 12,
+    "BLE_windows": 12,
+    "max_exact_H": 0.0192424242424242,
+    "HOLD_windows": 10
+  }
+}

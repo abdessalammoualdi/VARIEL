@@ -1,0 +1,14 @@
+{
+  "description": "Controller, comparator ratios, training overhead and end-to-end timing",
+  "data_sha256_checked": true,
+  "pdf_page_count": 1,
+  "size_pt": [
+    1264.32,
+    830.0
+  ],
+  "checks": {
+    "dataset_rows": 8,
+    "decision_faster_upf": 8,
+    "total_faster_upf": 0
+  }
+}

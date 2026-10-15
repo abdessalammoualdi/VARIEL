@@ -1,0 +1,14 @@
+{
+  "description": "Matched specialist advantages and 12 multiclass LTT cells",
+  "data_sha256_checked": true,
+  "pdf_page_count": 1,
+  "size_pt": [
+    1264.12,
+    829.44
+  ],
+  "checks": {
+    "specialist_rows": 72,
+    "specialist_negative_mean": 0,
+    "multiclass_rows": 12
+  }
+}

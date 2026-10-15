@@ -1,0 +1,127 @@
+{
+  "dev_summary.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/DTRAR_FinalDevelopment_Batch11__FINAL_DEVELOPMENT_SUMMARY.csv",
+    "sha256": "a2f7f40b96bd2aec8005772980973dbcdbed473f1e0e9c26c20f1a8851a1b867",
+    "bytes": 18782,
+    "archive_member": null
+  },
+  "robust_summary.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/DTRAR_FinalRobustness_Batch12__FINAL_ROBUSTNESS_SUMMARY.csv",
+    "sha256": "99c4576930399dc6df187cd5a441ae21b3363714a7174997ceaf46c9f79a0cf5",
+    "bytes": 9199,
+    "archive_member": null
+  },
+  "temporal_summary.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/DTRAR_TemporalActionability_Final__SUMMARY.csv",
+    "sha256": "223c3e281a181835371dedb3964ee444f060ac8405923e45e3c3fb00df52113a",
+    "bytes": 3193,
+    "archive_member": null
+  },
+  "frontier_summary.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/DTRAR_LiabilityFrontier_Batch15__LIABILITY_FRONTIER_SUMMARY.csv",
+    "sha256": "a5d270256c526fc206f77a22984bdb95fbbf4923480f7afab38f90e68b605ef7",
+    "bytes": 22689,
+    "archive_member": null
+  },
+  "racs_stages.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/table_resource_evolution.csv",
+    "sha256": "1352e4752edce2fba00f20daf63943e2ee9d43674a5080d071dc73cb782a5212",
+    "bytes": 844,
+    "archive_member": null
+  },
+  "racs_dataset.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/RACS_PER_DATASET.csv",
+    "sha256": "e0c0763b841530a9da330e090bff53835226ea2b13942aebf27f6dd7146d12cc",
+    "bytes": 686,
+    "archive_member": null
+  },
+  "racs_rescue.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/RACS_RESCUE_21.csv",
+    "sha256": "955eef2524864ade7443fd50a78b37c7815bcca4ab447932a6e05eb7d31df947",
+    "bytes": 9847,
+    "archive_member": null
+  },
+  "fresh_summary.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/DTRAR_LiabilityFreshConfirmation_Batch17__LIABILITY_FRESH_SUMMARY.csv",
+    "sha256": "33c43a9da187e69c731d1ac571c3c006f4859a5e0dd2bab5fe342ec26570298f",
+    "bytes": 854,
+    "archive_member": null
+  },
+  "specialist.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/PAIRED_SUMMARY_V9.csv",
+    "sha256": "b2b8a336b89cb8601a13efde38503cbc012c3273484bc221a2b1cf9555b01cdf",
+    "bytes": 16060,
+    "archive_member": null
+  },
+  "multiclass.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/LTT_MC_ALL3_BACKBONES_SUMMARY.csv",
+    "sha256": "305f7275d3631b8d80046d25bf16f1bc715f0f29d01a6115d257b89da869b05b",
+    "bytes": 2856,
+    "archive_member": null
+  },
+  "hi_paired.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/FINAL_8DATASET_PAIRED_STATS.csv",
+    "sha256": "4d21909c632f8174293dc6a5b2acbf97ab0e209e794124363446e9b8d2fc0f00",
+    "bytes": 1577,
+    "archive_member": null
+  },
+  "hi_dev_summary.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/VARIEL_Final_80of80_Evidence__DEVELOPMENT_SUMMARY.csv",
+    "sha256": "975b09391b82f05fcc2d7b2e550813fbab71404a09c7f9f97a398258cdf0c12e",
+    "bytes": 450,
+    "archive_member": null
+  },
+  "hi_ext_summary.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/VARIEL_Final_80of80_Evidence__EXTERNAL_SUMMARY.csv",
+    "sha256": "b0b482f1761bdadfe90b46399ae3f0908e11797af552ac3b31bcbc903ebbda13",
+    "bytes": 473,
+    "archive_member": null
+  },
+  "secondary.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/V24_SECONDARY_METRICS_SUMMARY.csv",
+    "sha256": "877fad7c932f3d6ebf6c4715f5f2dbecc3572913370baa7d92be44b67c1a2b86",
+    "bytes": 49141,
+    "archive_member": null
+  },
+  "compute.csv": {
+    "origin": "VARIEL_KBS_SUPPLEMENT_v1_FINAL/source_data/VARIEL_FINAL_CODE_FREEZE_v10__MATCHED_RUNTIME_BY_DATASET.csv",
+    "sha256": "8a3c106200bb28a07225eb3d4f167a152fca7882babd78c63b9c94a8b6db6192",
+    "bytes": 2652,
+    "archive_member": null
+  },
+  "dev_windows.csv": {
+    "origin": "authzips/DTRAR_FinalDevelopment_Batch11_Review.zip",
+    "member": "FINAL_DEVELOPMENT_WINDOW_TRACE.csv",
+    "archive_sha256": "3ca22fb4a5495aeb563c600a7e98327cbfad171194e247da7d9b9681daf9a709",
+    "sha256": "30d61605fcfca88135124cc63029b7b83eb5c8429e81fada0e97740a080b2b6e",
+    "bytes": 2471767
+  },
+  "hi_dev_windows.csv": {
+    "origin": "VARIEL_Final_80of80_Evidence_Review.zip",
+    "member": "DEVELOPMENT_WINDOW_TRACE.csv",
+    "archive_sha256": "835e6280c2f2bead6135ba67d72c648d0d1ebea949e1f31fd9c09f574af03517",
+    "sha256": "a3425615779c2701f49573cb65bd7a3da72e8b640658b07cccd03b04fa128018",
+    "bytes": 75104
+  },
+  "hi_ext_windows.csv": {
+    "origin": "VARIEL_Final_80of80_Evidence_Review.zip",
+    "member": "EXTERNAL_WINDOW_TRACE.csv",
+    "archive_sha256": "835e6280c2f2bead6135ba67d72c648d0d1ebea949e1f31fd9c09f574af03517",
+    "sha256": "7971609b60fe09329cc6a18d02b638085c2a7b73aca339d39b21266f0ebc63c6",
+    "bytes": 92761
+  },
+  "ble_seed0.csv": {
+    "origin": "authzips/DTRAR_FullStack_BLE_RSSI_Fresh_Review.zip",
+    "member": "core_windows_seed0_primary02.csv",
+    "archive_sha256": "8b6a05126c944be2321016b21b12f8378a2c0ac2d356ec0f220d496e31aeef80",
+    "sha256": "b21f2f4a2cce644898f89ce880baa9755b64312190c0b9f9dd59978c67ab7707",
+    "bytes": 4062
+  },
+  "insects_seed0.csv": {
+    "origin": "authzips/DTRAR_FullStack_INSECTS_Fresh_Review.zip",
+    "member": "core_windows_seed0_primary02.csv",
+    "archive_sha256": "51afbc1294ff96d177110ca8e653e4c9d78aa950c416472b51d5169fe1c8d8c4",
+    "sha256": "be819de85c74ce591853db96d36463ddb50c8165c74901f78c63546b8ba3dc6f",
+    "bytes": 4252
+  }
+}
