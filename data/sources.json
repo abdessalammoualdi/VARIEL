@@ -1,0 +1,223 @@
+{
+  "bank": {
+    "source": "UCI Bank Marketing #222",
+    "url": "https://archive.ics.uci.edu/dataset/222/bank+marketing",
+    "file": "bank-full.csv",
+    "hash": "d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d",
+    "status": "checksum-locked by original downloader",
+    "group": "principal",
+    "original_download_urls": [
+      "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+      "https://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank.zip"
+    ],
+    "original_file": "bank-full.csv",
+    "prepared_data_note": "The exact source file SHA-256 is checked by the frozen Bank downloader."
+  },
+  "electricity": {
+    "source": "OpenML original ID 151",
+    "url": "https://www.openml.org/d/151",
+    "file": "electricity-normalized.arff",
+    "hash": "2d86fbc74c69a5c04bcde0119bce280dd6d8efa0115987edc75b77ccf024d7f2",
+    "status": "checksum-locked by original downloader",
+    "group": "principal",
+    "original_download_urls": [
+      "https://openml.org/data/v1/download/2419/electricity.arff",
+      "https://api.openml.org/data/v1/download/2419/electricity.arff"
+    ],
+    "original_file": "electricity-normalized.arff",
+    "prepared_data_note": "OpenML dataset 151, downloaded with exact historical file ID 2419 and verified by SHA-256."
+  },
+  "gas": {
+    "source": "UCI Gas Sensor Array Drift #224",
+    "url": "https://archive.ics.uci.edu/dataset/224/gas+sensor+array+drift+dataset",
+    "file": "batch1.dat...batch10.dat",
+    "hash": null,
+    "status": "10 source batch hashes in variel/infrastructure/configs/raw_manifest.json",
+    "group": "principal",
+    "original_download_urls": [
+      "https://archive.ics.uci.edu/static/public/224/gas+sensor+array+drift+dataset.zip",
+      "https://archive.ics.uci.edu/ml/machine-learning-databases/00224/Dataset.zip"
+    ],
+    "original_file": "batch1.dat through batch10.dat",
+    "prepared_data_note": "Each original batch is SHA-256 checked using variel/infrastructure/configs/raw_manifest.json."
+  },
+  "airlines": {
+    "source": "scikit-multiflow streaming datasets (original protocol)",
+    "url": "https://raw.githubusercontent.com/scikit-multiflow/streaming-datasets/master/airlines.csv",
+    "file": "airlines.csv",
+    "hash": null,
+    "status": "validated header and 539383 rows by original runner",
+    "group": "principal",
+    "original_download_urls": [
+      "https://github.com/scikit-multiflow/streaming-datasets/raw/refs/heads/master/airlines.csv",
+      "https://raw.githubusercontent.com/scikit-multiflow/streaming-datasets/master/airlines.csv"
+    ],
+    "original_file": "airlines.csv",
+    "prepared_data_note": "The frozen HI runner requires 539,383 rows and exact eight-column schema. No fixed raw SHA-256 is recorded in the release."
+  },
+  "occupancy_detection_v2": {
+    "source": "UCI Occupancy Detection #357; verify v2 concatenation and temporal split",
+    "url": "https://archive.ics.uci.edu/dataset/357/occupancy+detection",
+    "file": "occupancy_detection_v2.csv",
+    "hash": null,
+    "status": "exact project-prepared input fingerprint and blind-audit protocol frozen",
+    "group": "principal",
+    "original_file": "UCI Occupancy Detection source; project-specific occupancy_detection_v2.csv",
+    "prepared_data_note": "Exact conversion and chronological split are specified in reproducibility/unseen_prepared_audit/. The prepared input bytes remain with the original workstation data.",
+    "prepared_file_sha256": "7aa0c5ac2bee701e3ba1eb531d4ea7f03f38b699198cdac9d11222c204853c4b",
+    "prepared_rows": 20560,
+    "prepared_file": "data/unseen_locked/occupancy_detection_v2.csv",
+    "split_counts": {
+      "train_n": 10280,
+      "cal_n": 3084,
+      "target_n": 7196
+    }
+  },
+  "eeg_eye_state": {
+    "source": "UCI EEG Eye State #264",
+    "url": "https://archive.ics.uci.edu/dataset/264/eeg+eye+state",
+    "file": "EEG Eye State.arff",
+    "hash": null,
+    "status": "exact project-prepared input fingerprint and blind-audit protocol frozen",
+    "group": "principal",
+    "original_file": "UCI EEG Eye State source; project-specific locked CSV",
+    "prepared_data_note": "Exact conversion and chronological split are specified in reproducibility/unseen_prepared_audit/. The prepared input bytes remain with the original workstation data.",
+    "prepared_file_sha256": "3b4df2dcace064574eb4625cd16f95103355ea0375d88be1eae7c7adc330a41f",
+    "prepared_rows": 14980,
+    "prepared_file": "data/unseen_locked/eeg_eye_state.csv",
+    "split_counts": {
+      "train_n": 7490,
+      "cal_n": 2247,
+      "target_n": 5243
+    }
+  },
+  "rialto": {
+    "source": "ogozuacik concept drift dataset (frozen external reference)",
+    "url": "https://raw.githubusercontent.com/ogozuacik/concept-drift-datasets-scikit-multiflow/master/real-world/rialto.csv",
+    "file": "rialto.csv",
+    "hash": "12c16b6f473bebd1be79006399e06fbd825e163ca6e6a6695b072fe82bcc2183",
+    "status": "original source hash and 82250 rows",
+    "group": "principal",
+    "original_download_urls": [
+      "https://raw.githubusercontent.com/ogozuacik/concept-drift-datasets-scikit-multiflow/master/real-world/rialto.csv"
+    ],
+    "original_file": "rialto.csv",
+    "prepared_data_note": "Exact raw CSV SHA-256 and row/feature dimensions are frozen in frozen_external_reference.py.",
+    "frozen_shape": {
+      "rows": 82250,
+      "features": 27,
+      "classes": 10
+    }
+  },
+  "spam": {
+    "source": "ogozuacik concept drift dataset (NOT UCI Spambase)",
+    "url": "https://raw.githubusercontent.com/ogozuacik/concept-drift-datasets-scikit-multiflow/master/real-world/spam.csv",
+    "file": "spam.csv",
+    "hash": "8880ced878c81d25564bd6c8ee1ba805a5bb1a8c0d98d12f4de62f799ac910a5",
+    "status": "original source hash and 6213 rows",
+    "group": "principal",
+    "original_download_urls": [
+      "https://raw.githubusercontent.com/ogozuacik/concept-drift-datasets-scikit-multiflow/master/real-world/spam.csv"
+    ],
+    "original_file": "spam.csv",
+    "prepared_data_note": "Exact raw CSV SHA-256 and row/feature dimensions are frozen in frozen_external_reference.py.",
+    "frozen_shape": {
+      "rows": 6213,
+      "features": 499,
+      "classes": 2
+    }
+  },
+  "insects": {
+    "source": "USP LABIC INSECTS abrupt balanced",
+    "url": "https://sites.labic.icmc.usp.br/vsouza/repository/creme/INSECTS-abrupt_balanced_norm.arff",
+    "file": "INSECTS-abrupt_balanced_norm.arff",
+    "hash": null,
+    "status": "original runner checks 52848 rows, 33 predictors, 6 classes; processed csv hash separately locked",
+    "group": "principal",
+    "original_download_urls": [
+      "https://sites.labic.icmc.usp.br/vsouza/repository/creme/INSECTS-abrupt_balanced_norm.arff"
+    ],
+    "original_file": "INSECTS-abrupt_balanced_norm.arff",
+    "prepared_file": "INSECTS.csv",
+    "prepared_file_sha256": "e4819251b250a6fc1bf2a3798bbb7a1cbd2aff81d2ea34252a904c5266272fff",
+    "prepared_data_note": "The frozen HI module locks the 52,848-row prepared 33-feature/6-class CSV. The legacy ARFF URL is recorded as a source route, but present-day retrieval and the ARFF-to-CSV transformation have not been verified."
+  },
+  "ble_rssi": {
+    "source": "UCI BLE RSSI Dataset for Indoor Localization #586",
+    "url": "https://archive.ics.uci.edu/dataset/586/ble+rssi+dataset+for+indoor+localization",
+    "file": "raw_rssi.csv",
+    "hash": "d6b4bda20a54987e74f25e777bfe04d1a84cdc941c3c79a55264163c6eabae7f",
+    "status": "original source hash and 13584 rows",
+    "group": "principal",
+    "original_file": "raw_rssi.csv (not filtered_rssi.csv)",
+    "frozen_shape": {
+      "rows": 13584,
+      "features": 2,
+      "classes": 3
+    },
+    "prepared_data_note": "Frozen HI module expects the SHA-256-locked raw_rssi.csv; the UCI landing-page total is not the per-file count and filtered_rssi.csv is not interchangeable."
+  },
+  "mhealth": {
+    "source": "UCI MHEALTH #319",
+    "url": "https://archive.ics.uci.edu/dataset/319/mhealth+dataset",
+    "file": "MHEALTHDATASET",
+    "hash": null,
+    "status": "prepared frozen CSV verified against original Batch16 lock; original prepared data bytes retained in Batch16 evidence archive but not included in public source package",
+    "group": "fresh_sparse_only",
+    "original_file": "Original UCI MHEALTH subject activity recordings",
+    "prepared_data_note": "The locked Batch17 experiment requires the exact converted stream and its SHA-256. No raw download can be substituted for that prepared file without its original preprocessing protocol.",
+    "prepared_file": "artifacts/dtrar_liability_fresh_audit_batch16/locked/uci319_mhealth.csv",
+    "prepared_file_sha256": "041e9079373f18ae9d35ecb6552ab9ca54b66af8cfd4ee385e16aa056dbf53c5",
+    "prepared_rows": 250000,
+    "split_counts": {
+      "train_n": 125000,
+      "source_n": 37500,
+      "target_n": 87500,
+      "target_windows": 12
+    },
+    "ordered_conversion": "official subject1..subject10 file order; within-file acquisition order; deterministic even-row-index thinning only if n>250000",
+    "official_archive_sha256": "16ad0ce709f3f00df18f348610d15bce0884b79e2143f57f446493673f02b8e0"
+  },
+  "older_activity": {
+    "source": "UCI Activity recognition with healthy older people #427",
+    "url": "https://archive.ics.uci.edu/dataset/427/activity+recognition+with+healthy+older+people+using+a+batteryless+wearable+sensor",
+    "file": "S1_Dataset / S2_Dataset",
+    "hash": null,
+    "status": "prepared frozen CSV verified against original Batch16 lock; original prepared data bytes retained in Batch16 evidence archive but not included in public source package",
+    "group": "fresh_sparse_only",
+    "original_file": "S1_Dataset and S2_Dataset participant sensor files",
+    "prepared_data_note": "The locked Batch17 experiment requires the exact converted stream and its SHA-256. Participant-file ordering, labels and source/target boundary are part of the prepared experiment.",
+    "prepared_file": "artifacts/dtrar_liability_fresh_audit_batch16/locked/uci427_older_activity.csv",
+    "prepared_file_sha256": "86e470a9d38d2e144aca8fecef1fb8b33b4d824714afbd1321430c4f0920b5c0",
+    "prepared_rows": 75128,
+    "split_counts": {
+      "train_n": 37564,
+      "source_n": 11269,
+      "target_n": 26295,
+      "target_windows": 12
+    },
+    "ordered_conversion": "official archive deterministic file order; within-file repository order; deterministic even-index thinning only if n>250000",
+    "official_archive_sha256": "b05fb0ddadffcb5ec70f1b340d57f5345a1150bd603e8c0299a67ccf3c4ac8dc"
+  },
+  "multivariate_gait": {
+    "source": "UCI Multivariate Gait Data #760",
+    "url": "https://archive.ics.uci.edu/dataset/760/multivariate+gait+data",
+    "file": "original UCI archive",
+    "hash": null,
+    "status": "prepared frozen CSV verified against original Batch16 lock; original prepared data bytes retained in Batch16 evidence archive but not included in public source package",
+    "group": "fresh_sparse_only",
+    "original_file": "gait.csv",
+    "prepared_data_note": "The frozen confirmation uses a processed stream for HOLD/no-op; do not infer the experimental label or stream ordering directly from the UCI tabular columns.",
+    "prepared_file": "artifacts/dtrar_liability_fresh_audit_batch16/locked/uci760_multivariate_gait.csv",
+    "prepared_file_sha256": "5c6a50090384a1b05b05ca25f0beb6b18d9624c126907f81f55f0035caf01d63",
+    "prepared_rows": 181800,
+    "split_counts": {
+      "train_n": 90900,
+      "source_n": 27270,
+      "target_n": 63630,
+      "target_windows": 12
+    },
+    "ordered_conversion": "reused from completed first structural audit; no performance opened",
+    "official_archive_sha256": null
+  }
+}
