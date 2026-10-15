@@ -1,0 +1,12 @@
+{
+  "gates": {
+    "all_plhe_envelopes_within_fixed_budget": true,
+    "capture_decreases_with_staleness_rho_le_minus_0p80": true,
+    "capture_increases_with_persistence_rho_ge_0p80": true,
+    "oracle_opportunity_stable_cv_le_0p10": true
+  },
+  "oracle_gain_cv_across_persistence": 0.000183406842421552,
+  "pass": true,
+  "spearman_persistence_vs_capture_at_staleness2": 0.8999999999999998,
+  "spearman_staleness_vs_capture_at_rho0p90": -1.0
+}

@@ -1,0 +1,290 @@
+{
+  "version": "frozen-source-to-terminal-inputs",
+  "files": [
+    {
+      "path": "reproducibility/high_information/DEVELOPMENT_ASSESSMENT.json",
+      "sha256": "28fda9cdbd6649aaab1b7ca39e5257439b3089bbf9f8b7df8d33f75d70c7e70b",
+      "bytes": 596
+    },
+    {
+      "path": "reproducibility/high_information/DEVELOPMENT_SEEDWISE.csv",
+      "sha256": "c205c8e28b51f5c6f58c811c589155fe5889f78ec5dfdd780d071b08bded8aee",
+      "bytes": 4360
+    },
+    {
+      "path": "reproducibility/high_information/DEVELOPMENT_SUMMARY.csv",
+      "sha256": "1d6922cd9292bac9aa0e183326e0e3818a13a35685917991c18f3c7ffe4be5fd",
+      "bytes": 420
+    },
+    {
+      "path": "reproducibility/high_information/DEVELOPMENT_WINDOW_TRACE.csv",
+      "sha256": "d6341edd5d1580f64477fd5de3a9590b2a133fa80a8922fa9b1414f10ad86575",
+      "bytes": 53230
+    },
+    {
+      "path": "reproducibility/high_information/DTRAR_HighInfoRetrainRepair_Review.zip",
+      "sha256": "add02031985e85a4e5f46ac4394b371f21196b096ba6c3be145cc7fad67af401",
+      "bytes": 35101
+    },
+    {
+      "path": "reproducibility/high_information/SUMMARY.json",
+      "sha256": "0af14f721534ed182358664d417743c44cd296da537c58b5a81ac1e8f24c6f02",
+      "bytes": 341
+    },
+    {
+      "path": "reproducibility/high_information/VARIEL_HighInfoCabinet_Development_Review.zip",
+      "sha256": "8b454d2cf7107f11e280518440b08605872267e430047350901906a6ccfe5516",
+      "bytes": 19816
+    },
+    {
+      "path": "reproducibility/high_information/VARIEL_HighInfoCabinet_ExternalConfirmation_Review.zip",
+      "sha256": "8c56a26d8bcd91efcdc6cad03b71ba234241cf0e331511e75ee7ddd4718fa82f",
+      "bytes": 90414
+    },
+    {
+      "path": "reproducibility/high_information/WINDOW_TRACE.csv",
+      "sha256": "127eec910f9e25d7e994461df87b31928c4b64b9602fbc0cb162e797ae70ffd8",
+      "bytes": 734
+    },
+    {
+      "path": "reproducibility/multiclass/VARIEL_XGBOOST_LTT_MC_FINAL_v13_Review.zip",
+      "sha256": "83ad280536c1c2591d0b27e3a9e02f3d8a82edea305216e37951efb8ffc256bc",
+      "bytes": 22574
+    },
+    {
+      "path": "reproducibility/preservation/V24_ASSESSMENT.json",
+      "sha256": "23fcb44a0e9d3374606e3b1faad09da3f3fa30916e63db624b0d25923a8eb3ae",
+      "bytes": 879
+    },
+    {
+      "path": "reproducibility/preservation/V24_SECONDARY_METRICS_LONG.csv",
+      "sha256": "3d8431472021052fa42e58ea454560faefb7ce7daa023587c42c0b35ecf327c0",
+      "bytes": 331396
+    },
+    {
+      "path": "reproducibility/preservation/V24_SECONDARY_METRICS_SUMMARY.csv",
+      "sha256": "877fad7c932f3d6ebf6c4715f5f2dbecc3572913370baa7d92be44b67c1a2b86",
+      "bytes": 49141
+    },
+    {
+      "path": "reproducibility/preservation/VARIEL_ECE_INVARIANT_TERMINAL_v24_Review.zip",
+      "sha256": "410e99190a0bdb29197de4e693257ad645a8dc282ccb65ce2756944049cc3d43",
+      "bytes": 143866
+    },
+    {
+      "path": "reproducibility/preservation/job_cache/seed0.json",
+      "sha256": "0bf0cf930557c28b6bdbef01defc9de8e644cc071710f671f2ede4bb680d3bcf",
+      "bytes": 611
+    },
+    {
+      "path": "reproducibility/preservation/job_cache/seed1.json",
+      "sha256": "a29fe6bda25edd4e5f2d71aa15b725d494d7f69d5009a972e795a6a4980253d0",
+      "bytes": 611
+    },
+    {
+      "path": "reproducibility/preservation/job_cache/seed2.json",
+      "sha256": "543ac1d18c077cb9335fdf08e70315feae6722bf83296c05904bec164bf97e9a",
+      "bytes": 612
+    },
+    {
+      "path": "reproducibility/preservation/job_cache/seed3.json",
+      "sha256": "6c21831cbe5790d419710b9fde7e9894b67b0dd2436efa270b62578a431e7005",
+      "bytes": 606
+    },
+    {
+      "path": "reproducibility/preservation/job_cache/seed4.json",
+      "sha256": "758d1a588a5e3c8ec72cfe9854ac2fab34633fae782f6fcd01eb0b256474aef7",
+      "bytes": 612
+    },
+    {
+      "path": "reproducibility/preservation/job_cache/seed5.json",
+      "sha256": "05e9a2c54b3df381b050e32de025fac2b03209155dbbe741109071cbc8c603bf",
+      "bytes": 607
+    },
+    {
+      "path": "reproducibility/preservation/job_cache/seed6.json",
+      "sha256": "67b4e5316d413283484b7e898ce07d83841b90c38a653a31a7e7c8e25701b021",
+      "bytes": 606
+    },
+    {
+      "path": "reproducibility/preservation/job_cache/seed7.json",
+      "sha256": "2184c08a7b95cfe294774c0b7fa946bde869cfec5e39a00d22ce94e5f7969422",
+      "bytes": 608
+    },
+    {
+      "path": "reproducibility/preservation/job_cache/seed8.json",
+      "sha256": "6a15e3f560ecf67c260e890e1048a3b151666b0919f8e0194e5d3ad4bbdbc96e",
+      "bytes": 610
+    },
+    {
+      "path": "reproducibility/preservation/job_cache/seed9.json",
+      "sha256": "99881cb08b7532c40ad4fc117e9ff84babc982d15c16791565f804404fef2f26",
+      "bytes": 611
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/BOSA_NMCS_FINAL_ASSESSMENT.json",
+      "sha256": "5eaa455ff6caa61979478dd72b48a4dd5be56ce6bf712ff6003300e741bb6c28",
+      "bytes": 1945
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/BOSA_SELECTED_DEPLOYMENT_SEEDWISE.csv",
+      "sha256": "ab0d379428fbcd00c0b6d41e9c11c0244738f94dfb32fc5124dbf3b9a78824de",
+      "bytes": 200172
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/CPPI_GREG_CASE_RECORDS_V2.zip",
+      "sha256": "b8ed4406bd0565f259c43e312d76dd0ab243298129c6bd1ffa4da59606629a7c",
+      "bytes": 209013
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/CPPI_GREG_FINAL_ASSESSMENT.json",
+      "sha256": "8189e090e36bc41c802f20e77095c4ca42b13a7adb5982b09ac8f004347622d9",
+      "bytes": 1976
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/CPPI_GREG_PER_DATASET.csv",
+      "sha256": "04daf85d7444a121fae2d15a39cf0e750e43055204dfd8318ff2dd159a2d9e7b",
+      "bytes": 754
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/CPPI_GREG_SELECTED_ALL_SIX.csv",
+      "sha256": "8d722e7b4062be86abe6c98ca86b5b02a0a7937b4e0f173f82193e8c78080247",
+      "bytes": 159933
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/CPPI_GREG_UNRESOLVED_CASES.csv",
+      "sha256": "96fa0d004eba073f6944d4445435627c0cfd895c55cc9fdb3efcab284460ccbb",
+      "bytes": 8059
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/DTRAR_ASPIRE_BOSA_NMCS_AllSix_EfficiencySweep_Review.zip",
+      "sha256": "30ceef09ee1b7b6b9374634f81da6493466341739dcc9ba9a735d1725e7381aa",
+      "bytes": 108276
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/DTRAR_ASPIRE_BURST_FACC_TailSolver_GPU_Review.zip",
+      "sha256": "a98a80e41024ac6807e3b4b154b4cae4e660592f4c96e9cf6793829ec4b82f22",
+      "bytes": 42112
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/DTRAR_ASPIRE_CPPIGREG_TERMINAL_GPU_Review.zip",
+      "sha256": "333f75f565e1ff82e1392a1348f34b075e394724a40e9d9895c0a6d29e9f7edf",
+      "bytes": 38884
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/DTRAR_ASPIRE_PPARC_SHARP_TERMINAL_GPU_Review.zip",
+      "sha256": "3817cc905cae56ff4fde0ce0a2996e4d2472745df7b1236c2a4cefbc794f955d",
+      "bytes": 32862
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/DTRAR_ASPIRE_RACS_TERMINAL_CLOSURE.zip",
+      "sha256": "dbb4534a239d15508d5a217f46dbece6fb2e53b025464a7562badd1fda1293ad",
+      "bytes": 119851
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/SHARP_FINAL_ASSESSMENT.json",
+      "sha256": "262936873266909f3e74c910ec7d21c64723b88e0394d687957f4b48261e425b",
+      "bytes": 1686
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/SHARP_PER_DATASET.csv",
+      "sha256": "8652d5e5561f07d5095c877d6a390d1cdedd48c974ed0531a545ae7bdb2eb119",
+      "bytes": 767
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/SHARP_SELECTED_ALL_SIX.csv",
+      "sha256": "c9b207015b99a44d6ddafe109a9d4744bd849db5ad0a35ca47e2b4ae617c6215",
+      "bytes": 151567
+    },
+    {
+      "path": "reproducibility/resource_cabinet/terminal_upstream/SHARP_UNRESOLVED_CASES.csv",
+      "sha256": "82d4977c459117d9a60fea731d625fee2385c7758b599d81f50569bf1bf34cf8",
+      "bytes": 12605
+    },
+    {
+      "path": "reproducibility/sparse/DTRAR_FinalDevelopment_Batch11_Review.zip",
+      "sha256": "3ca22fb4a5495aeb563c600a7e98327cbfad171194e247da7d9b9681daf9a709",
+      "bytes": 612512
+    },
+    {
+      "path": "reproducibility/sparse/DTRAR_FinalRobustness_Batch12_Review.zip",
+      "sha256": "d784b4c9531651b09395749a0eadd6350806fea2a815e5b042e0784a435a43cc",
+      "bytes": 116255
+    },
+    {
+      "path": "reproducibility/sparse/DTRAR_LiabilityFreshConfirmation_Batch17_Review.zip",
+      "sha256": "7f83a89bbbe51e8915db8b20e79f8a401d5fcf2acb80ba376f046360f190025f",
+      "bytes": 46976
+    },
+    {
+      "path": "reproducibility/sparse/DTRAR_LiabilityFrontier_Batch15_Review________.zip",
+      "sha256": "460129caf1ab296c2062f6cdd2fcfffa32d70f5da9af9ad0c0cb015c1760ffad",
+      "bytes": 171761
+    },
+    {
+      "path": "reproducibility/temporal/ASSESSMENT.json",
+      "sha256": "11a37abc5fdca464022ed0d6836c0ff2eb3c88b679b4960ba6592237bed55c46",
+      "bytes": 445
+    },
+    {
+      "path": "reproducibility/temporal/DTRAR_TemporalActionability_Final_Review.zip",
+      "sha256": "aba3326e191f421b42dbbef4be3fded5e502b622d0943d3f84da533665e2f7ea",
+      "bytes": 156086
+    },
+    {
+      "path": "reproducibility/temporal/DTRAR_TemporalValidation_Batch19T2_v2_Review.zip",
+      "sha256": "5969a0836f99689bc2615d016a8c3abea1f8d1d5a98df6896f8efb205f9c46f2",
+      "bytes": 1382452
+    },
+    {
+      "path": "reproducibility/temporal/LOCKED_PLAN.json",
+      "sha256": "232586d2e1f10259b30b18675382a8d03c7a9b62f4f3cbe361f5e67cc4f59f1d",
+      "bytes": 403
+    },
+    {
+      "path": "reproducibility/temporal/REPLICATION_RESULTS.csv",
+      "sha256": "54c7daa4f1cb7811afeeafe11994ea42b0a070556765a92d63f6651dc67292c3",
+      "bytes": 299948
+    },
+    {
+      "path": "reproducibility/temporal/SUMMARY.csv",
+      "sha256": "223c3e281a181835371dedb3964ee444f060ac8405923e45e3c3fb00df52113a",
+      "bytes": 3193
+    },
+    {
+      "path": "reproducibility/temporal/utility_variation_regret_source.csv",
+      "sha256": "a97ff5b240c1367504c92ee18cbdc2b51ac7906818f8d49b4a8b69e03cdefc5e",
+      "bytes": 2059
+    },
+    {
+      "path": "reproducibility/unseen_prepared_audit/DTRAR_UnseenConfirmation_XGB_Review.zip",
+      "sha256": "41961c52ae3aaf3d0c107a2a154dcff03d6a07f41d377bfde98f7fb9c642ef6e",
+      "bytes": 154803
+    },
+    {
+      "path": "reproducibility/unseen_prepared_audit/DTRAR_UnseenDataset_Audit_V2_Review.zip",
+      "sha256": "a1f12df71eacc0bb993d2abddf07d2d7a434cbc34a39a59dbdb1bc16a356b88f",
+      "bytes": 7002
+    },
+    {
+      "path": "reproducibility/unseen_prepared_audit/PREPARED_FILES.json",
+      "sha256": "ef44613d33e9e2b5112de276b5a7e6a715d8fb5db4add056907a2eae6df20c2d",
+      "bytes": 863
+    },
+    {
+      "path": "reproducibility/unseen_prepared_audit/UNSEEN_DATASET_AUDIT_V2.csv",
+      "sha256": "94426b36a1a5e13f8c4fc66c7e8483fbb641ec1936b4e10fdf158da15718f6eb",
+      "bytes": 778
+    },
+    {
+      "path": "reproducibility/unseen_prepared_audit/UNSEEN_DATASET_AUDIT_V2.json",
+      "sha256": "1630c5827647f1f7b85248caa360c68d58d674beddf96013791275238eba2d47",
+      "bytes": 7151
+    },
+    {
+      "path": "reproducibility/unseen_prepared_audit/audit_dtrar_unseen_datasets_v2.py",
+      "sha256": "3cec6be0e4137eff0a4181aae17973fa68624a1f9175349dbcaa3fb65dcf1af5",
+      "bytes": 13794
+    }
+  ]
+}

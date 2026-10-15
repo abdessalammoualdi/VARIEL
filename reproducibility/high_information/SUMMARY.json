@@ -1,0 +1,13 @@
+{
+  "dataset": "gas",
+  "guarded_brier": 0.5840032653256245,
+  "improvement_vs_retrain": 0.0,
+  "max_current_canary_fraction": 0.04,
+  "max_safety_H": 0.0,
+  "mean_current_canary_fraction": 0.04,
+  "operational_noninferior": true,
+  "raw_retrain_brier": 0.5840032653256245,
+  "seed": 9,
+  "strict_win": false,
+  "total_label_fraction": 1.0
+}

@@ -1,0 +1,25 @@
+{
+  "source_archive": "DTRAR_UnseenDataset_Audit_V2_Review.zip",
+  "selection_locked_before_performance": true,
+  "split_protocol": "first 50% source training, next 15% source calibration/audit reference, final 35% deployment split into 12 consecutive windows",
+  "files": [
+    {
+      "dataset": "occupancy_detection_v2",
+      "prepared_path": "data/unseen_locked/occupancy_detection_v2.csv",
+      "sha256": "7aa0c5ac2bee701e3ba1eb531d4ea7f03f38b699198cdac9d11222c204853c4b",
+      "rows": 20560,
+      "train_n": 10280,
+      "cal_n": 3084,
+      "target_n": 7196
+    },
+    {
+      "dataset": "eeg_eye_state",
+      "prepared_path": "data/unseen_locked/eeg_eye_state.csv",
+      "sha256": "3b4df2dcace064574eb4625cd16f95103355ea0375d88be1eae7c7adc330a41f",
+      "rows": 14980,
+      "train_n": 7490,
+      "cal_n": 2247,
+      "target_n": 5243
+    }
+  ]
+}

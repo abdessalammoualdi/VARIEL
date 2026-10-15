@@ -1,0 +1,57 @@
+{
+  "archive_member_source": "VARIEL_FINAL_FIGURE_INPUTS.zip!/VARIEL_FINAL_FIGURE_INPUTS/DTRAR_ASPIRE_RACS_TERMINAL_CLOSURE.zip",
+  "nested_archive_sha256": "dbb4534a239d15508d5a217f46dbece6fb2e53b025464a7562badd1fda1293ad",
+  "terminal_script_sha256": "8c7437a758e1e2c8ce808d75b2cb64f0fe36ba3ec764a2927dee1567addb90ac",
+  "files": [
+    {
+      "filename": "BOSA_SELECTED_DEPLOYMENT_SEEDWISE.csv",
+      "sha256": "ab0d379428fbcd00c0b6d41e9c11c0244738f94dfb32fc5124dbf3b9a78824de",
+      "bytes": 200172,
+      "origin_zip": "DTRAR_ASPIRE_RACS_TERMINAL_CLOSURE.zip"
+    },
+    {
+      "filename": "CPPI_GREG_SELECTED_ALL_SIX.csv",
+      "sha256": "8d722e7b4062be86abe6c98ca86b5b02a0a7937b4e0f173f82193e8c78080247",
+      "bytes": 159933,
+      "origin_zip": "DTRAR_ASPIRE_RACS_TERMINAL_CLOSURE.zip"
+    },
+    {
+      "filename": "RACS_SELECTED_ALL_SIX.csv",
+      "sha256": "69f54fcdf18f044eba41bcfb57d8c4189e454d954b37df7556049d1296ac949b",
+      "bytes": 238171,
+      "origin_zip": "DTRAR_ASPIRE_RACS_TERMINAL_CLOSURE.zip"
+    },
+    {
+      "filename": "RACS_RESCUE_21.csv",
+      "sha256": "955eef2524864ade7443fd50a78b37c7815bcca4ab447932a6e05eb7d31df947",
+      "bytes": 9847,
+      "origin_zip": "DTRAR_ASPIRE_RACS_TERMINAL_CLOSURE.zip"
+    },
+    {
+      "filename": "RACS_PER_DATASET.csv",
+      "sha256": "e0c0763b841530a9da330e090bff53835226ea2b13942aebf27f6dd7146d12cc",
+      "bytes": 686,
+      "origin_zip": "DTRAR_ASPIRE_RACS_TERMINAL_CLOSURE.zip"
+    },
+    {
+      "filename": "RACS_CROSS_DOMAIN_WEIGHT_SUMMARY.csv",
+      "sha256": "c8a74e23a61dd2fea57d38ab286027797cd9960a87493b72af1871bb72c2d8b2",
+      "bytes": 473,
+      "origin_zip": "DTRAR_ASPIRE_RACS_TERMINAL_CLOSURE.zip"
+    },
+    {
+      "filename": "RACS_FINAL_ASSESSMENT.json",
+      "sha256": "ad915cb4e74e718d9d9a1c546610bab5e7f7b25a2caf5827dcfdb4aa7a640a8b",
+      "bytes": 1521,
+      "origin_zip": "DTRAR_ASPIRE_RACS_TERMINAL_CLOSURE.zip"
+    },
+    {
+      "filename": "CPPI_GREG_FINAL_ASSESSMENT.json",
+      "sha256": "8189e090e36bc41c802f20e77095c4ca42b13a7adb5982b09ac8f004347622d9",
+      "bytes": 1976,
+      "origin_zip": "DTRAR_ASPIRE_RACS_TERMINAL_CLOSURE.zip"
+    }
+  ],
+  "purpose": "Frozen terminal resource decision input and output linkage; source files and terminal CSVs from identical archived RACS closure.",
+  "scope": "Six development resource domains, 1080 decisions; not a fresh full-dataset training result."
+}

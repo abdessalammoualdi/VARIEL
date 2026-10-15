@@ -1,0 +1,41 @@
+{
+  "architecture": "RACS: Regime-Adaptive Consensus Shrinkage rescue after SHARP + CPPI-GREG",
+  "candidate_weights": [
+    0.25,
+    0.3333333333333333,
+    0.375,
+    0.5,
+    0.625,
+    0.75
+  ],
+  "cell_total": 108,
+  "cross_domain_audit_all_operationally_valid": true,
+  "cross_domain_audit_operational_valid": 21,
+  "cross_domain_audit_total": 21,
+  "development_closure": true,
+  "development_exact_cells_10of10": 104,
+  "development_exact_winner_matches": 1075,
+  "development_operational_cells_10of10": 108,
+  "development_operational_total": 1080,
+  "development_operational_valid": 1080,
+  "development_racs_exact_winner_matches": 19,
+  "development_racs_max_true_regret": 0.00021666266001319975,
+  "development_racs_operational_valid": 21,
+  "development_unresolved_entering_racs": 21,
+  "formal_individual_frequentist_certificate_for_racs_rows": false,
+  "labels_added_by_racs": 0,
+  "max_label_fraction": 0.1000470145745181,
+  "max_observed_true_operational_regret": 0.0009973840603438,
+  "mean_label_fraction": 0.023499877327300685,
+  "median_label_fraction": 0.00785209822155735,
+  "next_step": "Freeze RACS and validate the frozen rule on a genuinely fresh stream. Do not tune further on these six development domains.",
+  "racs_uses_dataset_or_seed_identity": false,
+  "remaining_development_unresolved": 0,
+  "robust_development_weight_interval": [
+    0.2725,
+    0.3768
+  ],
+  "selected_cppi_weight": 0.375,
+  "selected_sharp_weight": 0.625,
+  "trigger": "only upstream unresolved resource states"
+}

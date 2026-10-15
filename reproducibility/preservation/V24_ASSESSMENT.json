@@ -1,0 +1,24 @@
+{
+  "backbone_retraining": false,
+  "frozen_V21_nontarget_cells_untouched": true,
+  "main_brier_positive_cells": 24,
+  "main_cells": 24,
+  "main_classwise_ece_nonnegative_cells": 24,
+  "main_ece_nonnegative_cells": 24,
+  "main_nll_positive_cells": 24,
+  "name": "VARIEL ECE-Invariant Terminal Closure v24",
+  "no_main_hard_or_ranking_regressions": true,
+  "perfect_reviewer_target": true,
+  "preserved_metric_max_abs_advantage": 0.0,
+  "projection": "tie-safe label-free nullspace projection of V20 XGBoost/Spam residual preserving baseline ECE-bin means, complete weak p1/confidence ordering, and hard decisions",
+  "spam_mean_projection_scale": 1.2528772484946509e-06,
+  "spam_min_projection_scale": 2.330918008823353e-07,
+  "stress_probability_min_mean_advantage": 0.0007771724065406812,
+  "target_cells": [
+    [
+      "xgboost",
+      "spam"
+    ]
+  ],
+  "target_jobs": 10
+}

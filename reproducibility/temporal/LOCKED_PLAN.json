@@ -1,0 +1,24 @@
+{
+  "audit_delta": 0.05,
+  "audit_fraction": 0.05,
+  "buffer": 3,
+  "claim": "hold safe repair opportunity approximately constant while varying temporal persistence and feedback staleness",
+  "decay": 0.9,
+  "fixed_plhe_budget": 0.02,
+  "persistence": [
+    0.5,
+    0.6,
+    0.75,
+    0.9,
+    0.98
+  ],
+  "reps": 100,
+  "shift": 0.85,
+  "staleness": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "windows": 80
+}

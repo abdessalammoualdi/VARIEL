@@ -1,0 +1,5 @@
+dataset,uci_id,primary_selected,secondary_selected,pass_support,n,train_n,cal_n,target_n,source_classes,target_classes,train_counts,cal_counts,target_counts
+occupancy_detection_v2,357,True,False,True,20560,10280,3084,7196,0|1,0|1,"{""0"": 7633, ""1"": 2647}","{""0"": 2547, ""1"": 537}","{""0"": 5630, ""1"": 1566}"
+rt_iot2022_binary,942,False,False,False,123117,61558,18468,43091,0|1,1,"{""0"": 12507, ""1"": 49051}","{""1"": 18468}","{""1"": 43091}"
+room_occupancy,864,False,True,True,10129,5064,1519,3546,0|1|2|3,0|2|3,"{""0"": 3457, ""1"": 459, ""2"": 655, ""3"": 493}","{""0"": 1519}","{""0"": 3252, ""2"": 93, ""3"": 201}"
+eeg_eye_state,264,True,False,True,14980,7490,2247,5243,0|1,0|1,"{""0"": 3490, ""1"": 4000}","{""0"": 683, ""1"": 1564}","{""0"": 4084, ""1"": 1159}"

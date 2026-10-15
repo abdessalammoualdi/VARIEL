@@ -1,0 +1,29 @@
+{
+  "H02_holds": true,
+  "all_operationally_noninferior": true,
+  "all_strict_wins": false,
+  "architecture": "VARIEL HIGH-INFO Dominance Guard",
+  "datasets": [
+    "bank",
+    "electricity",
+    "gas",
+    "airlines"
+  ],
+  "frozen_sparse_VARIEL_changed": false,
+  "group": "development",
+  "max_current_canary_fraction": 0.04,
+  "operational_noninferior": 40,
+  "parameters": {
+    "alpha_total": 0.05,
+    "epsilon_H": 0.02,
+    "operational_delta": 0.001,
+    "stages": [
+      0.01,
+      0.02,
+      0.04
+    ]
+  },
+  "strict_wins": 25,
+  "total_label_fraction": 1.0,
+  "total_seeds": 40
+}
