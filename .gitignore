@@ -1,0 +1,12 @@
+/.venv/
+/__pycache__/
+*.py[cod]
+.pytest_cache/
+/data/raw/
+/data/downloads/
+/data/processed/
+/artifacts/
+/runs/
+/checkpoints/
+*.log
+.DS_Store

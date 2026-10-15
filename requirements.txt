@@ -1,0 +1,11 @@
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.2
+xgboost>=2.0
+catboost>=1.2
+joblib>=1.2
+threadpoolctl>=3.1
+matplotlib>=3.6
+PyMuPDF>=1.22
+# FT-Transformer experiments additionally require PyTorch with an appropriate CPU/CUDA wheel.

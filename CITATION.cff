@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use VARIEL, cite the accompanying article when available."
+type: software
+title: "VARIEL"
+authors:
+  - family-names: Moualdi
+    given-names: Abdessalam
+  - family-names: Bensid
+    given-names: Khaled
+  - family-names: Zitouni
+    given-names: Farouq
+  - family-names: Taleb-Ahmed
+    given-names: Abdelmalik
